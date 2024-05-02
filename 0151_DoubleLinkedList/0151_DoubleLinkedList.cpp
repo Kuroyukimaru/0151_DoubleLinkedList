@@ -11,7 +11,7 @@ struct Node
 };
 
 Node* START = NULL;
-int main()
-{
-    std::cout << "Hello World!\n";
+
+void addNode() {
+	Node* newNode = new Node();								//step 1: create a new node
 }
