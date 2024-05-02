@@ -109,6 +109,13 @@ void deleteNode() {
 		}
 	}
 
+	else {
+		//Node to be deleted is not the first node
+		previous->next = current->next; {	//If there's a successor, update its prev pointer
+			current->next->prev = previous;
+		}
+	}
+
 }
 
 
